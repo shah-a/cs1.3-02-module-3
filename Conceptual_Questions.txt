@@ -1,0 +1,62 @@
+1. Base [OPTIONAL]
+
+a. List the basic operations of a Stack:
+
+b. Using [Google Jamboard](http://jamboard.google.com/), sketch a diagram based on the statements below:
+
+s = Stack()
+s.push('1')
+s.push('23')
+s.pop()
+s.push('555')
+s.pop()
+
+
+Paste a link to your drawing here:
+
+c. List the basic operation of a Queue: 
+
+d. What would the content s of a queue be after the following operations?
+
+q = Queue()
+q.enqueue(a)
+q.enqueue(d)
+q.enqueue(z)
+q.dequeue()
+q.enqueue(x)
+q.enqueue(c)
+q.dequeue()
+q.dequeue()
+
+e. Check out this article:(https://stackabuse.com/stacks-and-queues-in-python/) to review how stacks and queues can be implemented in Python using a dynamic array or a Python built in list
+
+
+2. Mastery [REQUIRED]
+
+a. We are going to implement a stack using a linked list and we have decided to put the top of the stack at the head of the linked list. What is the worst case time complexity of the following stack methods:
+push()
+pop()
+peek()
+
+Explain your reasoning with words and pictures (you can create a file in repl with the .draw extension to easily create a drawing)
+
+b. We are going to implement a queue using a linked list and we have decided to put the front of the queue at the head of the linked list. What is the worst case time complexity of the following stack methods:
+enqueue()
+dequeue()
+front()
+
+Explain your reasoning with words and pictures (you can create a file in repl with the .draw extension to easily create a drawing)
+
+3. Stretch [OPTIONAL]
+
+a. Implement a stack using queues! Use this leetcode description:(https://leetcode.com/problems/implement-stack-using-queues/) to get started
+
+Paste a link to your solution here
+
+
+b. A circular queue, also called a ring buffer, is one way to create a FIFO data structure with a limited max size. This can be very useful in applications where memory efficiency is important or where when processing a stream of data the outputs may occur at a much slower rate than the inputs coming in like storing keystrokes, check out this article for more detail:(https://towardsdatascience.com/circular-queue-or-ring-buffer-92c7b0193326#:~:text=Circular%20Queues%20offer%20a%20quick,data%20with%20a%20maximum%20size.&text=Conserves%20memory%20as%20we%20only,grow%20if%20input%20outpaces%20output.)
+
+Implement a circular queue, use this leetcode description:(https://leetcode.com/problems/design-circular-queue/) to get started
+
+Paste a link to your solution here
+
