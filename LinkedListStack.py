@@ -17,19 +17,19 @@ class LinkedListStack:
     Time complexity: O(1) (constant).
     """
     self.ll_stack.prepend(new_data)
-    print("Item added.")
+    # print("Item added.")
 
   def pop(self):
     """
     Removes the item at the top of `ll_stack`.
     Time complexity: O(1) constant.
     Note: If we used `append` and `delete_from_tail` instead
-    of `prepend` and `deleted_from_head`, then the complexity
+    of `prepend` and `delete_from_head`, then the complexity
     of `pop()` would be O(n) due to the way `SignlyLinkedList`
     is implemeneted.
     """
     self.ll_stack.delete_from_head()
-    print("Item deleted.")
+    # print("Item deleted.")
 
   def peek(self):
     """
