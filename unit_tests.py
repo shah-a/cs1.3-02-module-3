@@ -14,7 +14,6 @@ def test_stack_methods():
   ll_stack.pop()
 
   assert ll_stack.peek() == 5
-  
 
 def test_queue_methods():
   ll_queue = LinkedListQueue()
@@ -29,3 +28,10 @@ def test_queue_methods():
   ll_queue.dequeue()
 
   assert ll_queue.front() == 30
+
+if __name__ == "__main__":
+  test_stack_methods()
+  print("Stack tests passed")
+
+  test_queue_methods()
+  print("Queue tests passed")

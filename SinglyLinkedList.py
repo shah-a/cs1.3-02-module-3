@@ -4,12 +4,24 @@ class Node:
     self.data = data
     self.next = None
 
+  def __str__(self):
+    return f"<Node, data: {self.data}>"
+
+  def __repr__(self):
+    return self.__str__()
+
 class LinkedList:
   """Implements a basic linked list"""
 
   def __init__(self):
     self.head = None
     self.tail = None
+
+  def __str__(self):
+    return f"<LinkedList, head: {self.head}, tail: {self.tail}>"
+
+  def __repr__(self):
+    return self.__str__()
 
   def append(self, new_data):
     
